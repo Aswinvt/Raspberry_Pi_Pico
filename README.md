@@ -1,2 +1,2 @@
-# Raspberry_Pi_Pico
+# Raspberry Pi Pico
 Experimenting with Raspberry Pi Pico
