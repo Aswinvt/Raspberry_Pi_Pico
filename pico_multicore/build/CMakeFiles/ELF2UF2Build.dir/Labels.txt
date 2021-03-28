@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/CMakeFiles/ELF2UF2Build
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/CMakeFiles/ELF2UF2Build.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/CMakeFiles/ELF2UF2Build-complete.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+D:/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico_multicore/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
