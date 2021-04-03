@@ -10,4 +10,4 @@
 - filter_pt1_fun() -  will filter the temperature reading
 
 #### Raw temperature data vs filtered temperature data
-![Alt Text]https://github.com/Aswinvt/Raspberry_Pi_Pico/blob/main/pico_multicore/temperaturesensorplot.JPG
+![Alt Text](https://github.com/Aswinvt/Raspberry_Pi_Pico/blob/main/pico_multicore/temperaturesensorplot.JPG)
