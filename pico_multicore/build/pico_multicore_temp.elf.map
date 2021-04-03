@@ -1173,9 +1173,9 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 C:\Users\ASWIN\AppData\Local\Temp\ccO021WX.o
- .data          0x00000000        0x0 C:\Users\ASWIN\AppData\Local\Temp\ccO021WX.o
- .bss           0x00000000        0x0 C:\Users\ASWIN\AppData\Local\Temp\ccO021WX.o
+ .text          0x00000000        0x0 C:\Users\ASWIN\AppData\Local\Temp\ccKSdXDl.o
+ .data          0x00000000        0x0 C:\Users\ASWIN\AppData\Local\Temp\ccKSdXDl.o
+ .bss           0x00000000        0x0 C:\Users\ASWIN\AppData\Local\Temp\ccKSdXDl.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1369,7 +1369,7 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ASWIN\AppData\Local\Temp\ccO021WX.o
+ .boot2         0x10000000      0x100 C:\Users\ASWIN\AppData\Local\Temp\ccKSdXDl.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1441,8 +1441,9 @@ LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../
                 0x10000390       0x7c CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
                 0x10000390                tempcalc_fun
  .text.core1_func
-                0x1000040c       0x70 CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
+                0x1000040c       0x6e CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
                 0x1000040c                core1_func
+ *fill*         0x1000047a        0x2 
  .text.gpio_set_function
                 0x1000047c       0x30 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                 0x1000047c                gpio_set_function
@@ -2872,7 +2873,7 @@ LOAD CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_P
 LOAD CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 LOAD CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD C:\Users\ASWIN\AppData\Local\Temp\ccO021WX.o
+LOAD C:\Users\ASWIN\AppData\Local\Temp\ccKSdXDl.o
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2989,7 +2990,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000786       0x2b CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x000007b1       0x22 C:\Users\ASWIN\AppData\Local\Temp\ccO021WX.o
+                0x000007b1       0x22 C:\Users\ASWIN\AppData\Local\Temp\ccKSdXDl.o
  .ARM.attributes
                 0x000007d3       0x1e c:/progra~2/gnuarm~1/102020~1/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3130,42 +3131,42 @@ LOAD linker stubs
  .debug_abbrev  0x00005afd      0x3db CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_abbrev  0x00005ed8      0x101 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
-.debug_loc      0x00000000    0x13233
- .debug_loc     0x00000000      0x38f CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
- .debug_loc     0x0000038f      0xafe CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x00000e8d      0x457 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x000012e4      0x1d7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x000014bb       0xe9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x000015a4     0x2c8f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x00004233      0x7ed CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x00004a20       0x60 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00004a80      0x6a3 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x00005123       0xed CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_loc     0x00005210     0x1439 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x00006649      0x3b3 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x000069fc      0x890 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000728c      0x267 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x000074f3       0x71 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x00007564      0x228 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000778c     0x1186 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00008912     0x2095 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000a9a7      0x16f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000ab16       0x59 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000ab6f       0x73 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000abe2      0x1e8 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_loc     0x0000adca      0xa31 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000b7fb      0x361 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_loc     0x0000bb5c      0x508 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_loc     0x0000c064      0x133 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_loc     0x0000c197      0xd88 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_loc     0x0000cf1f      0x583 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_loc     0x0000d4a2     0x22ec CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_loc     0x0000f78e      0x5b9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_loc     0x0000fd47      0xf74 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_loc     0x00010cbb      0x2c7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_loc     0x00010f82     0x14dd CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_loc     0x0001245f      0xd48 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_loc     0x000131a7       0x8c CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.debug_loc      0x00000000    0x13240
+ .debug_loc     0x00000000      0x39c CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
+ .debug_loc     0x0000039c      0xafe CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x00000e9a      0x457 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x000012f1      0x1d7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x000014c8       0xe9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x000015b1     0x2c8f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x00004240      0x7ed CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x00004a2d       0x60 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00004a8d      0x6a3 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x00005130       0xed CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_loc     0x0000521d     0x1439 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x00006656      0x3b3 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x00006a09      0x890 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x00007299      0x267 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x00007500       0x71 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x00007571      0x228 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x00007799     0x1186 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x0000891f     0x2095 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000a9b4      0x16f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000ab23       0x59 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000ab7c       0x73 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000abef      0x1e8 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_loc     0x0000add7      0xa31 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000b808      0x361 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_loc     0x0000bb69      0x508 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_loc     0x0000c071      0x133 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_loc     0x0000c1a4      0xd88 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_loc     0x0000cf2c      0x583 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_loc     0x0000d4af     0x22ec CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_loc     0x0000f79b      0x5b9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_loc     0x0000fd54      0xf74 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_loc     0x00010cc8      0x2c7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_loc     0x00010f8f     0x14dd CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_loc     0x0001246c      0xd48 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_loc     0x000131b4       0x8c CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_aranges  0x00000000     0x12c0
  .debug_aranges
@@ -3306,53 +3307,53 @@ LOAD linker stubs
  .debug_ranges  0x00003260      0x360 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_ranges  0x000035c0       0x28 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
-.debug_line     0x00000000    0x145e0
- .debug_line    0x00000000      0x6f4 CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
- .debug_line    0x000006f4      0x957 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000104b      0x4c2 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0000150d      0x457 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001964      0x2af CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001c13     0x1756 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00003369      0xad7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00003e40      0x26f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000040af      0x857 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004906      0x2ed CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00004bf3      0x8a9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x0000549c      0x8de CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00005d7a      0xb6a CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000068e4      0x3e4 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00006cc8      0x2e3 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00006fab      0x46e CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00007419      0xeb2 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x000082cb       0x9e CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
- .debug_line    0x00008369     0x121a CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00009583      0x161 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000096e4      0x1d5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000098b9      0x2e2 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x00009b9b      0x41b CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x00009fb6      0x388 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000a33e      0x6b5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000a9f3       0xb1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000aaa4      0x3db CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000ae7f      0x38c CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000b20b      0x1e1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000b3ec      0x364 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x0000b750       0xdb CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000b82b       0xec CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000b917      0x1f5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000bb0c      0xd6b CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000c877      0x4e7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000cd5e      0x9d1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000d72f      0x2c0 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000d9ef      0xc87 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x0000e676      0x7d1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0000ee47     0x208e CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x00010ed5      0x5aa CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x0001147f      0xee5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00012364      0x47a CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x000127de      0xaea CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x000132c8      0xfb9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_line    0x00014281      0x35f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.debug_line     0x00000000    0x145df
+ .debug_line    0x00000000      0x6f3 CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj
+ .debug_line    0x000006f3      0x957 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x0000104a      0x4c2 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000150c      0x457 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001963      0x2af CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00001c12     0x1756 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00003368      0xad7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00003e3f      0x26f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x000040ae      0x857 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004905      0x2ed CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00004bf2      0x8a9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x0000549b      0x8de CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00005d79      0xb6a CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000068e3      0x3e4 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00006cc7      0x2e3 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00006faa      0x46e CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00007418      0xeb2 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000082ca       0x9e CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+ .debug_line    0x00008368     0x121a CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00009582      0x161 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000096e3      0x1d5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x000098b8      0x2e2 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x00009b9a      0x41b CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x00009fb5      0x388 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000a33d      0x6b5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000a9f2       0xb1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000aaa3      0x3db CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000ae7e      0x38c CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000b20a      0x1e1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000b3eb      0x364 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x0000b74f       0xdb CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000b82a       0xec CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000b916      0x1f5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000bb0b      0xd6b CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000c876      0x4e7 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000cd5d      0x9d1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000d72e      0x2c0 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000d9ee      0xc87 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0000e675      0x7d1 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0000ee46     0x208e CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00010ed4      0x5aa CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x0001147e      0xee5 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00012363      0x47a CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x000127dd      0xaea CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x000132c7      0xfb9 CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_line    0x00014280      0x35f CMakeFiles/pico_multicore_temp.dir/D_/My_Wisdom/Works/Github/Raspberry_Pi_Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_str      0x00000000     0x674b
  .debug_str     0x00000000      0x5b1 CMakeFiles/pico_multicore_temp.dir/multicore_temp.c.obj

@@ -37,17 +37,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_abbrev 00005fd9  00000000  00000000  0003ffa2  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_loc    00013233  00000000  00000000  00045f7b  2**0
+ 17 .debug_loc    00013240  00000000  00000000  00045f7b  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_aranges 000012c0  00000000  00000000  000591b0  2**3
+ 18 .debug_aranges 000012c0  00000000  00000000  000591c0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_ranges 000035e8  00000000  00000000  0005a470  2**3
+ 19 .debug_ranges 000035e8  00000000  00000000  0005a480  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line   000145e0  00000000  00000000  0005da58  2**0
+ 20 .debug_line   000145df  00000000  00000000  0005da68  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_str    0000674b  00000000  00000000  00072038  2**0
+ 21 .debug_str    0000674b  00000000  00000000  00072047  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_frame  00002444  00000000  00000000  00078784  2**2
+ 22 .debug_frame  00002444  00000000  00000000  00078794  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 pico_multicore_temp.elf:     file format elf32-littlearm
@@ -446,43 +446,44 @@ Disassembly of section .text:
 10000418:	2280      	movs	r2, #128	; 0x80
 1000041a:	0492      	lsls	r2, r2, #18
 1000041c:	625a      	str	r2, [r3, #36]	; 0x24
-1000041e:	e01c      	b.n	1000045a <core1_func+0x4e>
-10000420:	25d0      	movs	r5, #208	; 0xd0
-10000422:	062d      	lsls	r5, r5, #24
-10000424:	2680      	movs	r6, #128	; 0x80
-10000426:	04b6      	lsls	r6, r6, #18
-10000428:	616e      	str	r6, [r5, #20]
-1000042a:	20fa      	movs	r0, #250	; 0xfa
-1000042c:	f000 fd99 	bl	10000f62 <sleep_ms>
-10000430:	61ae      	str	r6, [r5, #24]
-10000432:	20fa      	movs	r0, #250	; 0xfa
-10000434:	f000 fd95 	bl	10000f62 <sleep_ms>
-10000438:	f006 fbc6 	bl	10006bc8 <multicore_fifo_pop_blocking>
-1000043c:	b280      	uxth	r0, r0
-1000043e:	f7ff ffa7 	bl	10000390 <tempcalc_fun>
-10000442:	2184      	movs	r1, #132	; 0x84
-10000444:	05c9      	lsls	r1, r1, #23
-10000446:	f003 fdef 	bl	10004028 <__wrap___aeabi_fcmplt>
-1000044a:	2800      	cmp	r0, #0
-1000044c:	d101      	bne.n	10000452 <core1_func+0x46>
-1000044e:	2c00      	cmp	r4, #0
-10000450:	d1e6      	bne.n	10000420 <core1_func+0x14>
-10000452:	20fa      	movs	r0, #250	; 0xfa
-10000454:	0040      	lsls	r0, r0, #1
+1000041e:	e006      	b.n	1000042e <core1_func+0x22>
+10000420:	b2e4      	uxtb	r4, r4
+10000422:	2c00      	cmp	r4, #0
+10000424:	d111      	bne.n	1000044a <core1_func+0x3e>
+10000426:	20fa      	movs	r0, #250	; 0xfa
+10000428:	0040      	lsls	r0, r0, #1
+1000042a:	f000 fd9a 	bl	10000f62 <sleep_ms>
+1000042e:	f006 fbcb 	bl	10006bc8 <multicore_fifo_pop_blocking>
+10000432:	b280      	uxth	r0, r0
+10000434:	f7ff ffac 	bl	10000390 <tempcalc_fun>
+10000438:	2401      	movs	r4, #1
+1000043a:	2184      	movs	r1, #132	; 0x84
+1000043c:	05c9      	lsls	r1, r1, #23
+1000043e:	f003 fdf9 	bl	10004034 <__wrap___aeabi_fcmpgt>
+10000442:	2800      	cmp	r0, #0
+10000444:	d1ec      	bne.n	10000420 <core1_func+0x14>
+10000446:	2400      	movs	r4, #0
+10000448:	e7ea      	b.n	10000420 <core1_func+0x14>
+1000044a:	25d0      	movs	r5, #208	; 0xd0
+1000044c:	062d      	lsls	r5, r5, #24
+1000044e:	2680      	movs	r6, #128	; 0x80
+10000450:	04b6      	lsls	r6, r6, #18
+10000452:	616e      	str	r6, [r5, #20]
+10000454:	20fa      	movs	r0, #250	; 0xfa
 10000456:	f000 fd84 	bl	10000f62 <sleep_ms>
-1000045a:	f006 fbb5 	bl	10006bc8 <multicore_fifo_pop_blocking>
-1000045e:	b280      	uxth	r0, r0
-10000460:	f7ff ff96 	bl	10000390 <tempcalc_fun>
-10000464:	4904      	ldr	r1, [pc, #16]	; (10000478 <core1_func+0x6c>)
-10000466:	f003 fde5 	bl	10004034 <__wrap___aeabi_fcmpgt>
-1000046a:	2800      	cmp	r0, #0
-1000046c:	d101      	bne.n	10000472 <core1_func+0x66>
-1000046e:	2400      	movs	r4, #0
-10000470:	e7ed      	b.n	1000044e <core1_func+0x42>
-10000472:	2401      	movs	r4, #1
-10000474:	e7eb      	b.n	1000044e <core1_func+0x42>
-10000476:	46c0      	nop			; (mov r8, r8)
-10000478:	41f80000 	.word	0x41f80000
+1000045a:	61ae      	str	r6, [r5, #24]
+1000045c:	20fa      	movs	r0, #250	; 0xfa
+1000045e:	f000 fd80 	bl	10000f62 <sleep_ms>
+10000462:	f006 fbb1 	bl	10006bc8 <multicore_fifo_pop_blocking>
+10000466:	b280      	uxth	r0, r0
+10000468:	f7ff ff92 	bl	10000390 <tempcalc_fun>
+1000046c:	2184      	movs	r1, #132	; 0x84
+1000046e:	05c9      	lsls	r1, r1, #23
+10000470:	f003 fdda 	bl	10004028 <__wrap___aeabi_fcmplt>
+10000474:	2800      	cmp	r0, #0
+10000476:	d0d4      	beq.n	10000422 <core1_func+0x16>
+10000478:	e7d5      	b.n	10000426 <core1_func+0x1a>
+	...
 
 1000047c <gpio_set_function>:
 1000047c:	b510      	push	{r4, lr}

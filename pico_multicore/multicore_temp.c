@@ -31,10 +31,7 @@ void core1_func()
         float temp_pt1 = tempcalc_fun(raw);
 
         // Set the Flag for warning light
-        if (temp_pt1 > 31)
-            flag = true;
-        else
-            flag = false;
+        flag = ((temp_pt1 > 32) ? true : false);
 
         // Toggle the warning LED every 250ms if flag is set
         while (flag)
