@@ -112,6 +112,7 @@ float filter_pt1_fun(float x)
 
     // Filter function
     xo = xp + ((xi - xp) * k);
+    // Rewrite previous state
     xp = xo;
 
     return xo;
