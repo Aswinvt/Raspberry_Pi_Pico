@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "multicore.h": "c",
+        "stdlib.h": "c",
+        "timer.h": "c",
+        "stdio.h": "c"
+    }
+}
